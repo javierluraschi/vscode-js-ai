@@ -1,0 +1,19 @@
+{
+  "name": "webdev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Javier Luraschi",
+  "license": "MIT",
+  "scripts": {
+    "web": "webpack --config web.config.js",
+    "dev": "webpack serve --config web.config.js --open"
+  },
+  "devDependencies": {
+    "webpack": "^5.36.1",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.3.1"
+  }
+}
